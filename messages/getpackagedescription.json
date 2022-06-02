@@ -1,0 +1,4 @@
+{
+  "commandDescription": "get the description within a package",
+  "fileFlagDescription": "file to read"
+}
