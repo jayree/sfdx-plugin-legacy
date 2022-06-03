@@ -1,0 +1,7 @@
+{
+  "extends": "@salesforce/dev-config/tsconfig-test",
+  "compilerOptions": {
+    "lib": ["ES2017", "DOM"]
+  },
+  "include": ["./**/*.ts"]
+}

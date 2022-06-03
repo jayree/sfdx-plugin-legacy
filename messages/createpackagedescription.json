@@ -1,0 +1,5 @@
+{
+  "commandDescription": "creates an empty package with the description",
+  "fileFlagDescription": "file to create",
+  "descriptionFlagDescription": "new description value"
+}

@@ -1,0 +1,5 @@
+{
+  "commandDescription": "set the description within a package",
+  "fileFlagDescription": "file to read",
+  "descriptionFlagDescription": "new description value"
+}
