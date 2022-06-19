@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.0.1...v1.0.2) (2022-06-19)
+
+
+### Bug Fixes
+
+* fix changelog ([f78e9bf](https://github.com/jayree/sfdx-plugin-legacy/commit/f78e9bfa5dc850823af4c106ad4748f4787849a9))
+
 ## [1.0.1](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.0.0...v1.0.1) (2022-06-19)
 
 
