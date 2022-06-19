@@ -75,7 +75,7 @@ const parseReleaseNotes = (notes: string, version: string): marked.Token[] => {
 export const changelog: Hook<'changelog'> = async function () {
   process.once('exit', () => {
     try {
-      const pluginRootPath = join(__dirname, '..', '..', '..');
+      const pluginRootPath = join(__dirname, '..', '..');
       const { name, version } = fs.readJsonSync(join(pluginRootPath, 'package.json')) as {
         name: string;
         version: string;
