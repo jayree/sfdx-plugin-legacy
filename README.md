@@ -1,6 +1,6 @@
 # @jayree/sfdx-plugin-legacy
 
-jayree sfdx legacy commands
+A Salesforce CLI plugin containing all jayree legacy commands.
 
 [![sfdx](https://img.shields.io/badge/cli-sfdx-brightgreen.svg)](https://developer.salesforce.com/tools/sfdxcli)
 [![Version](https://img.shields.io/npm/v/@jayree/sfdx-plugin-legacy.svg)](https://npmjs.org/package/@jayree/sfdx-plugin-legacy)
