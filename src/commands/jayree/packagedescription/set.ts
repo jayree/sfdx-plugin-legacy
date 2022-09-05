@@ -8,9 +8,9 @@ import { flags, SfdxCommand } from '@salesforce/command';
 import { Messages } from '@salesforce/core';
 import { AnyJson } from '@salesforce/ts-types';
 import AdmZip from 'adm-zip';
-import { js2Manifest, parseManifest } from '../../../utils/xml';
+import { js2Manifest, parseManifest } from '../../../utils/xml.js';
 
-Messages.importMessagesDirectory(__dirname);
+Messages.importMessagesDirectory(new URL('./', import.meta.url).pathname);
 const messages = Messages.loadMessages('@jayree/sfdx-plugin-legacy', 'setpackagedescription');
 
 export default class SetPackageDescription extends SfdxCommand {

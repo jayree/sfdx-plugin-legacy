@@ -9,7 +9,7 @@ import { Messages, Connection } from '@salesforce/core';
 import { AnyJson } from '@salesforce/ts-types';
 import puppeteer from 'puppeteer';
 
-Messages.importMessagesDirectory(__dirname);
+Messages.importMessagesDirectory(new URL('./', import.meta.url).pathname);
 const messages = Messages.loadMessages('@jayree/sfdx-plugin-legacy', 'listchangeset');
 export default class ViewChangeSets extends SfdxCommand {
   public static description = messages.getMessage('commandDescription');
@@ -60,14 +60,16 @@ export default class ViewChangeSets extends SfdxCommand {
     return tables.csad;
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async login(conn: Connection, page: puppeteer.Page) {
     await page.goto(conn.instanceUrl + '/secur/frontdoor.jsp?sid=' + conn.accessToken, {
       waitUntil: 'networkidle2',
     });
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async gettables(page: puppeteer.Page) {
-    return await page.evaluate(() => {
+    return page.evaluate(() => {
       const converttable = (document: Document, tableid: string) => {
         const rows = [];
         if (typeof document.getElementById(tableid) !== 'undefined' && document.getElementById(tableid)) {

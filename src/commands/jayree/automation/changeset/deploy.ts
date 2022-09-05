@@ -7,10 +7,10 @@
 import { flags, SfdxCommand } from '@salesforce/command';
 import { Messages, Connection } from '@salesforce/core';
 import { AnyJson } from '@salesforce/ts-types';
-import { prompt, QuestionCollection } from 'inquirer';
+import inquirer from 'inquirer';
 import puppeteer from 'puppeteer';
 
-Messages.importMessagesDirectory(__dirname);
+Messages.importMessagesDirectory(new URL('./', import.meta.url).pathname);
 const messages = Messages.loadMessages('@jayree/sfdx-plugin-legacy', 'deploychangeset');
 export default class DeployChangeSet extends SfdxCommand {
   public static description = messages.getMessage('commandDescription');
@@ -115,9 +115,7 @@ jobid:  0Xxx100000xx1x1
             message: 'Choose a Test Option',
             choices: ['Default', 'Run Local Tests', 'Run All Tests In Org', 'Run Specified Tests'],
             default: () => (this.flags.testlevel ? this.flags.testlevel.replace(/([A-Z])/g, ' $1').trim() : 'Default'),
-            filter: (val) => {
-              return val.replace(/( )/g, '');
-            },
+            filter: (val) => val.replace(/( )/g, ''),
           },
           {
             type: 'input',
@@ -125,9 +123,7 @@ jobid:  0Xxx100000xx1x1
             message:
               'Only the tests that you specify are run. Provide the names of test classes in a comma-separated list:',
             default: this.flags.runtests,
-            when: (answers) => {
-              return answers.testlevel === 'RunSpecifiedTests';
-            },
+            when: (answers) => answers.testlevel === 'RunSpecifiedTests',
             validate: (answer) => {
               if (answer.length < 1) {
                 return 'You must specify at least one test.';
@@ -135,11 +131,9 @@ jobid:  0Xxx100000xx1x1
               return true;
             },
           },
-        ] as QuestionCollection;
+        ];
 
-        sCS = await prompt(questions).then((answers) => {
-          return answers;
-        });
+        sCS = await inquirer.prompt(questions).then((answers) => answers);
       } else {
         sCS = {
           selectedChangeSet: this.flags.changeset,
@@ -215,12 +209,14 @@ jobid:  0Xxx100000xx1x1
     };
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async login(conn: Connection, page: puppeteer.Page) {
     await page.goto(conn.instanceUrl + '/secur/frontdoor.jsp?sid=' + conn.accessToken, {
       waitUntil: 'networkidle2',
     });
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async selecttest(page: puppeteer.Page, index: string, runtests = '') {
     await page.evaluate((i: string) => {
       document
@@ -241,6 +237,7 @@ jobid:  0Xxx100000xx1x1
     }
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async clickvalidateordeploy(page: puppeteer.Page, selectedMode: string) {
     if (selectedMode === 'Validate') {
       // click on validate
@@ -266,6 +263,7 @@ jobid:  0Xxx100000xx1x1
     });
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async clickvalidateordeploy2(page: puppeteer.Page, selectedMode: string) {
     if (selectedMode === 'Validate') {
       // click on validate
@@ -392,8 +390,9 @@ jobid:  0Xxx100000xx1x1
     // }
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async gettables(page: puppeteer.Page) {
-    return await page.evaluate(() => {
+    return page.evaluate(() => {
       const converttable = (document: Document, tableid: string) => {
         const rows = [];
         if (typeof document.getElementById(tableid) !== 'undefined' && document.getElementById(tableid)) {

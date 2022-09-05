@@ -9,7 +9,7 @@ import { Messages, Connection } from '@salesforce/core';
 import { AnyJson } from '@salesforce/ts-types';
 import puppeteer from 'puppeteer';
 
-Messages.importMessagesDirectory(__dirname);
+Messages.importMessagesDirectory(new URL('./', import.meta.url).pathname);
 const messages = Messages.loadMessages('@jayree/sfdx-plugin-legacy', 'ltngsyncstatus');
 export default class LtngSyncStatus extends SfdxCommand {
   public static description = messages.getMessage('commandDescription');
@@ -144,6 +144,7 @@ userContacts/userEvents: Exchange to Salesforce sync status... Initial sync comp
         let configSetupItem = tables[this.flags.officeuser].configSetup[itemtext];
         this.ux.startSpinner('configSetup: ' + itemtext);
         do {
+          // eslint-disable-next-line no-await-in-loop
           tables = await this.checkstatus(page);
           configSetupItem = tables[this.flags.officeuser].configSetup[itemtext];
           if (status !== configSetupItem && typeof configSetupItem !== 'undefined') {
@@ -170,6 +171,7 @@ userContacts/userEvents: Exchange to Salesforce sync status... Initial sync comp
     const end = Date.now() + this.flags.wait * 1000 * 60;
     if (!finalstate.includes(userContactsItem) || !finalstate.includes(userEventsItem)) {
       do {
+        // eslint-disable-next-line no-await-in-loop
         tables = await this.checkstatus(page);
         userContactsItem = tables[this.flags.officeuser].userContacts[itemtext];
         userEventsItem = tables[this.flags.officeuser].userEvents[itemtext];
@@ -190,11 +192,13 @@ userContacts/userEvents: Exchange to Salesforce sync status... Initial sync comp
     return { tables, userContactsItem, userEventsItem };
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async login(conn: Connection, page: puppeteer.Page) {
     await page.goto(conn.instanceUrl + '/secur/frontdoor.jsp?sid=' + conn.accessToken, {
       waitUntil: 'networkidle2',
     });
   }
+  // eslint-disable-next-line class-methods-use-this
   private async resetuser(page: puppeteer.Page) {
     // eslint-disable-next-line @typescript-eslint/no-misused-promises
     page.on('dialog', async (dialog) => {
@@ -208,8 +212,9 @@ userContacts/userEvents: Exchange to Salesforce sync status... Initial sync comp
     });
   }
 
+  // eslint-disable-next-line class-methods-use-this
   private async gettables(page: puppeteer.Page) {
-    return await page.evaluate(() => {
+    return page.evaluate(() => {
       const converttables = (document: Document, tables: string[]) => {
         const convertedtables = {};
         tables.forEach((tableid) => {

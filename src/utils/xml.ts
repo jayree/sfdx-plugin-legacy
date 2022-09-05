@@ -5,10 +5,7 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 import { XMLParser, XMLBuilder } from 'fast-xml-parser';
-
-const XML_DECL = '<?xml version="1.0" encoding="UTF-8"?>\n';
-const XML_NS_URL = 'http://soap.sforce.com/2006/04/metadata';
-const XML_NS_KEY = '@_xmlns';
+import { XML_DECL, XML_NS_KEY, XML_NS_URL } from '@salesforce/source-deploy-retrieve/lib/src/common/index.js';
 
 export function parseManifest(xmlData: string) {
   const parser = new XMLParser({
