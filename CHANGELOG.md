@@ -1,3 +1,16 @@
+## [1.1.2](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.1...v1.1.2) (2022-10-07)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/command from 5.2.8 to 5.2.11 ([#72](https://github.com/jayree/sfdx-plugin-legacy/issues/72)) ([0251307](https://github.com/jayree/sfdx-plugin-legacy/commit/02513070d1a9664648f00af37795bb2a3e7bc483))
+* **deps:** bump @salesforce/source-deploy-retrieve from 6.8.1 to 6.9.0 ([#90](https://github.com/jayree/sfdx-plugin-legacy/issues/90)) ([a61873e](https://github.com/jayree/sfdx-plugin-legacy/commit/a61873e8d33bd6a99c3a3be70f07bf6b2ff60da4))
+* **deps:** bump fast-xml-parser from 4.0.10 to 4.0.11 ([#78](https://github.com/jayree/sfdx-plugin-legacy/issues/78)) ([c16beac](https://github.com/jayree/sfdx-plugin-legacy/commit/c16beac16820ef0f4f0f75b8f5e31857ca3a4a01))
+* **deps:** bump inquirer and @types/inquirer ([#87](https://github.com/jayree/sfdx-plugin-legacy/issues/87)) ([e0de2cf](https://github.com/jayree/sfdx-plugin-legacy/commit/e0de2cfb455ee539d28cd8ce926d37c35d292fbf))
+* **deps:** bump marked from 4.1.0 to 4.1.1 ([#73](https://github.com/jayree/sfdx-plugin-legacy/issues/73)) ([c7a4765](https://github.com/jayree/sfdx-plugin-legacy/commit/c7a4765d42a9b511810996ede0729d27d83cb7c2))
+* **deps:** bump puppeteer from 18.0.4 to 18.2.1 ([#89](https://github.com/jayree/sfdx-plugin-legacy/issues/89)) ([943e12e](https://github.com/jayree/sfdx-plugin-legacy/commit/943e12ea3bcce6d056120fbf414677dea67729de))
+* **deps:** bump semver from 7.3.7 to 7.3.8 ([#76](https://github.com/jayree/sfdx-plugin-legacy/issues/76)) ([bf4ce75](https://github.com/jayree/sfdx-plugin-legacy/commit/bf4ce75970206038fde5a0bba2c61e0aaaeb910f))
+
 ## [1.1.1](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.0...v1.1.1) (2022-09-21)
 
 
