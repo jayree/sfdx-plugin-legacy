@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.11...v1.1.12) (2022-12-02)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/command from 5.2.26 to 5.2.27 ([#186](https://github.com/jayree/sfdx-plugin-legacy/issues/186)) ([372975f](https://github.com/jayree/sfdx-plugin-legacy/commit/372975f564833de1e103c0a549ad4cdbc2faddc0))
+
 ## [1.1.11](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.10...v1.1.11) (2022-11-25)
 
 
