@@ -1,3 +1,10 @@
+## [1.1.19](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.18...v1.1.19) (2023-01-12)
+
+
+### Bug Fixes
+
+* restore windows compatibility ([879bf06](https://github.com/jayree/sfdx-plugin-legacy/commit/879bf06c9ce050fb252ee463e61cc0520afe8d5b))
+
 ## [1.1.18](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.17...v1.1.18) (2023-01-06)
 
 
