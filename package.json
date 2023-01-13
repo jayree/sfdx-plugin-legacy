@@ -7,7 +7,7 @@
   "type": "module",
   "dependencies": {
     "@oclif/core": "^1.23.0",
-    "@salesforce/command": "^5.2.37",
+    "@salesforce/command": "^5.2.40",
     "@salesforce/source-deploy-retrieve": "^7.5.22",
     "adm-zip": "^0.5.10",
     "debug": "^4.3.4",
