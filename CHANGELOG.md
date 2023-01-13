@@ -1,3 +1,14 @@
+## [1.1.20](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.19...v1.1.20) (2023-01-13)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 1.23.1 to 1.24.0 ([#252](https://github.com/jayree/sfdx-plugin-legacy/issues/252)) ([90a0038](https://github.com/jayree/sfdx-plugin-legacy/commit/90a00385f96041b5739040bbfddfea895d90179c))
+* **deps:** bump @salesforce/command from 5.2.37 to 5.2.40 ([#248](https://github.com/jayree/sfdx-plugin-legacy/issues/248)) ([2ca3aa0](https://github.com/jayree/sfdx-plugin-legacy/commit/2ca3aa007fd5c778545c54e489792343755cbfa6))
+* **deps:** bump @salesforce/source-deploy-retrieve from 7.5.22 to 7.7.0 ([#257](https://github.com/jayree/sfdx-plugin-legacy/issues/257)) ([db38a4b](https://github.com/jayree/sfdx-plugin-legacy/commit/db38a4bcbbe3e65290a09ac1b67f9f292f2c6cb8))
+* **deps:** bump fast-xml-parser from 4.0.12 to 4.0.13 ([#254](https://github.com/jayree/sfdx-plugin-legacy/issues/254)) ([15f3c9c](https://github.com/jayree/sfdx-plugin-legacy/commit/15f3c9cfadde6d2b2681de0f0b8de3522a067f18))
+* **deps:** bump puppeteer from 19.4.1 to 19.5.2 ([#259](https://github.com/jayree/sfdx-plugin-legacy/issues/259)) ([d56f8e2](https://github.com/jayree/sfdx-plugin-legacy/commit/d56f8e230c15e735cf19c3dcd20b677396594f65))
+
 ## [1.1.19](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.18...v1.1.19) (2023-01-12)
 
 
