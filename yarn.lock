@@ -1157,14 +1157,14 @@
     typedoc-plugin-missing-exports "0.23.0"
     typescript "^4.1.3"
 
-"@salesforce/kit@^1.8.0", "@salesforce/kit@^1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-1.8.2.tgz#97d652bef37d02a13dffd6e9b68050e779db2bc4"
-  integrity sha512-UoY1bgWjw198QMyLKYXlF1bdqBqVtffBgtIT1M/cEwBF/Es1Oz3HaF1TwF98CmyC1dr6rL08Hr2SE5zHGijcLw==
+"@salesforce/kit@^1.8.0", "@salesforce/kit@^1.8.2", "@salesforce/kit@^1.8.3":
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-1.8.4.tgz#19918938d5f89ecb4e78a363b38605a529bcd7d4"
+  integrity sha512-H2KWT2soWEDf+QbcMLYBNt2iHEEDIihxoWufphu8FGySiAibEZcl2SPZJ87nbUW/Yu+dLqPEKTUZxvDEx7t3UQ==
   dependencies:
-    "@salesforce/ts-types" "^1.7.1"
+    "@salesforce/ts-types" "^1.7.2"
     shx "^0.3.3"
-    tslib "^2.2.0"
+    tslib "^2.5.0"
 
 "@salesforce/prettier-config@^0.0.2":
   version "0.0.2"
@@ -1176,13 +1176,13 @@
   resolved "https://registry.yarnpkg.com/@salesforce/schemas/-/schemas-1.4.0.tgz#7dff427c8059895d8108176047aee600703c82d6"
   integrity sha512-BJ25uphssN42Zy6kksheFHMTLiR98AAHe/Wxnv0T4dYxtrEbUjSXVAGKZqfewJPFXA4xB5gxC+rQZtfz6xKCFg==
 
-"@salesforce/source-deploy-retrieve@^7.7.5":
-  version "7.7.5"
-  resolved "https://registry.yarnpkg.com/@salesforce/source-deploy-retrieve/-/source-deploy-retrieve-7.7.5.tgz#4eb64f02d4759f98e1e64187a081c472ebe8a2ae"
-  integrity sha512-zkGpbvTVr2nBJfbTxShFfaa4DAOvbXiaaWjZg0oVLUDoAQh+uQKX4aPdsXqJR4pKdQR8u1JwEV7TlR1f5gMCrg==
+"@salesforce/source-deploy-retrieve@^7.7.6":
+  version "7.7.6"
+  resolved "https://registry.yarnpkg.com/@salesforce/source-deploy-retrieve/-/source-deploy-retrieve-7.7.6.tgz#57fc93ca4f14bf27e7db5fd3759cc290bc0d4eed"
+  integrity sha512-AIMMxGXnzFmuoUnnM0Kum6Av9vMtX9Yq7qkBMVaFFubjAj29vU4pv+JJ1CIsITVrqNNd9Hi09TVQtw3rQvsqyQ==
   dependencies:
     "@salesforce/core" "^3.32.13"
-    "@salesforce/kit" "^1.8.0"
+    "@salesforce/kit" "^1.8.3"
     "@salesforce/ts-types" "^1.7.2"
     archiver "^5.3.1"
     fast-xml-parser "^3.21.1"
