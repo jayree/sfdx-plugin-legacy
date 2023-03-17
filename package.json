@@ -16,7 +16,7 @@
     "inquirer": "^9.1.4",
     "marked": "^4.2.12",
     "marked-terminal": "^5.1.1",
-    "puppeteer": "^19.7.3",
+    "puppeteer": "^19.7.5",
     "semver": "^7.3.8",
     "tslib": "^2.5.0"
   },
