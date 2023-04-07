@@ -1,3 +1,12 @@
+## [1.1.33](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.32...v1.1.33) (2023-04-07)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/command from 5.3.4 to 5.3.5 ([#394](https://github.com/jayree/sfdx-plugin-legacy/issues/394)) ([c8bdace](https://github.com/jayree/sfdx-plugin-legacy/commit/c8bdace6eb8fd3851383f9918fa1418328f23131))
+* **deps:** bump @salesforce/source-deploy-retrieve from 7.14.2 to 7.15.0 ([#399](https://github.com/jayree/sfdx-plugin-legacy/issues/399)) ([cd04c8d](https://github.com/jayree/sfdx-plugin-legacy/commit/cd04c8d326f735c627ad4f9ebd10fea7a700e1ff))
+* **deps:** bump puppeteer from 19.8.2 to 19.8.5 ([#397](https://github.com/jayree/sfdx-plugin-legacy/issues/397)) ([57b5a87](https://github.com/jayree/sfdx-plugin-legacy/commit/57b5a8780107af30a1fac5d9b47cbdea01a3ce6c))
+
 ## [1.1.32](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.31...v1.1.32) (2023-03-31)
 
 
