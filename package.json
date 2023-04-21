@@ -17,7 +17,7 @@
     "marked": "^4.3.0",
     "marked-terminal": "^5.1.1",
     "puppeteer": "^19.10.0",
-    "semver": "^7.4.0",
+    "semver": "^7.5.0",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
