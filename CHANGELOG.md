@@ -1,3 +1,11 @@
+## [1.1.37](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.36...v1.1.37) (2023-05-05)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/command from 5.3.6 to 5.3.7 ([#436](https://github.com/jayree/sfdx-plugin-legacy/issues/436)) ([8b1ca84](https://github.com/jayree/sfdx-plugin-legacy/commit/8b1ca8435cd856b48746eb473a37125694d1e66f))
+* **deps:** bump inquirer from 9.2.0 to 9.2.1 ([#437](https://github.com/jayree/sfdx-plugin-legacy/issues/437)) ([0be3fa1](https://github.com/jayree/sfdx-plugin-legacy/commit/0be3fa1cec1ffbf25082327392dae0667a0320f6))
+
 ## [1.1.36](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.35...v1.1.36) (2023-04-28)
 
 
