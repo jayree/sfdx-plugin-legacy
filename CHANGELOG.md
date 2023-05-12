@@ -1,3 +1,11 @@
+## [1.1.38](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.37...v1.1.38) (2023-05-12)
+
+
+### Bug Fixes
+
+* **deps:** bump inquirer from 9.2.1 to 9.2.2 ([#442](https://github.com/jayree/sfdx-plugin-legacy/issues/442)) ([a5d2699](https://github.com/jayree/sfdx-plugin-legacy/commit/a5d2699bc92ccdf779fd66e536da4f3cb545408d))
+* **deps:** bump marked-terminal from 5.1.1 to 5.2.0 ([#447](https://github.com/jayree/sfdx-plugin-legacy/issues/447)) ([6c25dfd](https://github.com/jayree/sfdx-plugin-legacy/commit/6c25dfd92130761e4012094a15ec943b59e5630c))
+
 ## [1.1.37](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.36...v1.1.37) (2023-05-05)
 
 
