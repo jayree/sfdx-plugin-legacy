@@ -15,7 +15,7 @@
     "fs-extra": "^10.1.0",
     "inquirer": "^9.2.2",
     "marked": "^4.3.0",
-    "marked-terminal": "^5.1.1",
+    "marked-terminal": "^5.2.0",
     "puppeteer": "^19.11.1",
     "semver": "^7.5.0",
     "tslib": "^2.5.0"
