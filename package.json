@@ -8,7 +8,7 @@
   "dependencies": {
     "@jayree/changelog": "^1.1.2",
     "@salesforce/command": "^5.3.8",
-    "@salesforce/source-deploy-retrieve": "^8.5.3",
+    "@salesforce/source-deploy-retrieve": "^8.6.0",
     "adm-zip": "^0.5.10",
     "debug": "^4.3.4",
     "fast-xml-parser": "^4.2.2",
