@@ -7,7 +7,7 @@
   "type": "module",
   "dependencies": {
     "@jayree/changelog": "^1.1.2",
-    "@salesforce/command": "^5.3.8",
+    "@salesforce/command": "^5.3.9",
     "@salesforce/source-deploy-retrieve": "^8.6.0",
     "adm-zip": "^0.5.10",
     "debug": "^4.3.4",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
-    "@commitlint/config-conventional": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.5",
     "@oclif/plugin-command-snapshot": "^3.3.15",
     "@oclif/plugin-help": "^5.2.9",
     "@salesforce/dev-config": "^4.0.1",
