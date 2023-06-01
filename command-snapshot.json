@@ -13,42 +13,56 @@
       "targetusername",
       "testlevel"
     ],
-    "alias": []
+    "alias": [],
+    "flagChars": ["c", "l", "r", "s", "u"],
+    "flagAliases": []
   },
   {
     "command": "jayree:automation:changeset:list",
     "plugin": "@jayree/sfdx-plugin-legacy",
     "flags": ["apiversion", "json", "loglevel", "targetusername"],
-    "alias": []
+    "alias": [],
+    "flagChars": ["u"],
+    "flagAliases": []
   },
   {
     "command": "jayree:automation:ltngsync:status",
     "plugin": "@jayree/sfdx-plugin-legacy",
     "flags": ["apiversion", "json", "loglevel", "officeuser", "statusonly", "targetusername", "wait"],
-    "alias": []
+    "alias": [],
+    "flagChars": ["o", "s", "u", "w"],
+    "flagAliases": []
   },
   {
     "command": "jayree:packagedescription:create",
     "plugin": "@jayree/sfdx-plugin-legacy",
     "flags": ["description", "file", "json", "loglevel"],
-    "alias": []
+    "alias": [],
+    "flagChars": ["d", "f"],
+    "flagAliases": []
   },
   {
     "command": "jayree:packagedescription:get",
     "plugin": "@jayree/sfdx-plugin-legacy",
     "flags": ["file", "json", "loglevel"],
-    "alias": []
+    "alias": [],
+    "flagChars": ["f"],
+    "flagAliases": []
   },
   {
     "command": "jayree:packagedescription:remove",
     "plugin": "@jayree/sfdx-plugin-legacy",
     "flags": ["file", "json", "loglevel"],
-    "alias": []
+    "alias": [],
+    "flagChars": ["f"],
+    "flagAliases": []
   },
   {
     "command": "jayree:packagedescription:set",
     "plugin": "@jayree/sfdx-plugin-legacy",
     "flags": ["description", "file", "json", "loglevel"],
-    "alias": []
+    "alias": [],
+    "flagChars": ["d", "f"],
+    "flagAliases": []
   }
 ]
