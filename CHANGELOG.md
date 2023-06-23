@@ -1,3 +1,12 @@
+## [1.1.46](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.45...v1.1.46) (2023-06-23)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/source-deploy-retrieve from 9.2.2 to 9.2.5 ([#525](https://github.com/jayree/sfdx-plugin-legacy/issues/525)) ([3ea43d7](https://github.com/jayree/sfdx-plugin-legacy/commit/3ea43d71e5325ff5a8ab0691c78148949590ef62))
+* **deps:** bump fast-xml-parser from 4.2.4 to 4.2.5 ([#529](https://github.com/jayree/sfdx-plugin-legacy/issues/529)) ([80f4a44](https://github.com/jayree/sfdx-plugin-legacy/commit/80f4a449b3e0f1e9c4b8fd49b4980e3e18c39a5d))
+* **deps:** bump puppeteer from 20.7.1 to 20.7.3 ([#523](https://github.com/jayree/sfdx-plugin-legacy/issues/523)) ([7aaaa31](https://github.com/jayree/sfdx-plugin-legacy/commit/7aaaa31d39e633f0e36bca39f0b22a973743cd4a))
+
 ## [1.1.45](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.44...v1.1.45) (2023-06-16)
 
 
