@@ -1,3 +1,12 @@
+## [1.1.49](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.48...v1.1.49) (2023-07-14)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/source-deploy-retrieve from 9.3.2 to 9.3.4 ([#554](https://github.com/jayree/sfdx-plugin-legacy/issues/554)) ([73beec6](https://github.com/jayree/sfdx-plugin-legacy/commit/73beec6fa824b5a70210747709360dede0108814))
+* **deps:** bump inquirer from 9.2.7 to 9.2.8 ([#567](https://github.com/jayree/sfdx-plugin-legacy/issues/567)) ([a556cb3](https://github.com/jayree/sfdx-plugin-legacy/commit/a556cb3800e42b838a6b985979fe169900517537))
+* **deps:** bump puppeteer from 20.8.0 to 20.8.2 ([#560](https://github.com/jayree/sfdx-plugin-legacy/issues/560)) ([60cff8a](https://github.com/jayree/sfdx-plugin-legacy/commit/60cff8abf0e2e642967b5405ce3460430fcd9173))
+
 ## [1.1.48](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.47...v1.1.48) (2023-07-07)
 
 
