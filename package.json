@@ -13,7 +13,7 @@
     "debug": "^4.3.4",
     "fast-xml-parser": "^4.2.5",
     "fs-extra": "^11.1.1",
-    "inquirer": "^9.2.7",
+    "inquirer": "^9.2.8",
     "puppeteer": "^20.8.2",
     "tslib": "^2.6.0"
   },
