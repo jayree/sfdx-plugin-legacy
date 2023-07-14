@@ -1113,16 +1113,19 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
-"@puppeteer/browsers@1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-1.4.3.tgz#39bfd8bf999d707ed2914b036fa2febac2960985"
-  integrity sha512-8Jfkpb8qhPQhMsNBmIY8b6+ic2kvcmHZlyvifmcNKBC5jNZf3MAKq3gryKfmrjFAYFl3naPjiKljPUq5wuolfQ==
+"@puppeteer/browsers@1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-1.4.5.tgz#e80f46dbc34320744a0c44eeb6d4fe3c60349588"
+  integrity sha512-a0gpUa+XlxZHotoOklh99X6RC5R+hQGcVcYOH+oOIEBfQXPp8Z5c765XAu/zhxsjRuAZN4Xx4vZNlwN4wJro2A==
   dependencies:
     debug "4.3.4"
     extract-zip "2.0.1"
+    http-proxy-agent "7.0.0"
+    https-proxy-agent "7.0.1"
     progress "2.0.3"
-    proxy-agent "6.2.1"
-    tar-fs "3.0.3"
+    proxy-from-env "1.1.0"
+    socks-proxy-agent "8.0.1"
+    tar-fs "3.0.4"
     unbzip2-stream "1.4.3"
     yargs "17.7.1"
 
@@ -4687,6 +4690,14 @@ http-parser-js@>=0.5.1:
   resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.5.8.tgz#af23090d9ac4e24573de6f6aecc9d84a48bf20e3"
   integrity sha512-SGeBX54F94Wgu5RH3X5jsDtf4eHyRogWX1XGT3b4HuW3tQPM4AaBzoUji/4AAJNXCEOWZ5O0DgZmJw1947gD5Q==
 
+http-proxy-agent@7.0.0, http-proxy-agent@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-7.0.0.tgz#e9096c5afd071a3fce56e6252bb321583c124673"
+  integrity sha512-+ZT+iBxVUQ1asugqnD6oWoRiS25AkjNfG085dKJGtGxkdwLQrMKU5wJr2bOOFAXzKcTuqq+7fZlTMgG3SRfIYQ==
+  dependencies:
+    agent-base "^7.1.0"
+    debug "^4.3.4"
+
 http-proxy-agent@^4.0.0, http-proxy-agent@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-4.0.1.tgz#8a8c8ef7f5932ccf953c296ca8291b95aa74aa3a"
@@ -4705,14 +4716,6 @@ http-proxy-agent@^5.0.0:
     agent-base "6"
     debug "4"
 
-http-proxy-agent@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-7.0.0.tgz#e9096c5afd071a3fce56e6252bb321583c124673"
-  integrity sha512-+ZT+iBxVUQ1asugqnD6oWoRiS25AkjNfG085dKJGtGxkdwLQrMKU5wJr2bOOFAXzKcTuqq+7fZlTMgG3SRfIYQ==
-  dependencies:
-    agent-base "^7.1.0"
-    debug "^4.3.4"
-
 http2-wrapper@^1.0.0-beta.5.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/http2-wrapper/-/http2-wrapper-1.0.3.tgz#b8f55e0c1f25d4ebd08b3b0c2c079f9590800b3d"
@@ -4720,6 +4723,14 @@ http2-wrapper@^1.0.0-beta.5.2:
   dependencies:
     quick-lru "^5.1.1"
     resolve-alpn "^1.0.0"
+
+https-proxy-agent@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.1.tgz#0277e28f13a07d45c663633841e20a40aaafe0ab"
+  integrity sha512-Eun8zV0kcYS1g19r78osiQLEFIRspRUDd9tIfBCTBPBeMieF/EsJNL8VI3xOIdYRDEkjQnqOYPsZ2DsWsVsFwQ==
+  dependencies:
+    agent-base "^7.0.2"
+    debug "4"
 
 https-proxy-agent@^5.0.0:
   version "5.0.1"
@@ -7240,7 +7251,7 @@ proper-lockfile@^4.1.2:
     retry "^0.12.0"
     signal-exit "^3.0.2"
 
-proxy-agent@6.2.1, proxy-agent@^6.2.1:
+proxy-agent@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/proxy-agent/-/proxy-agent-6.2.1.tgz#062df6609a4012fd1c108974865599b61e77abde"
   integrity sha512-OIbBKlRAT+ycCm6wAYIzMwPejzRtjy8F3QiDX0eKOA3e4pe3U9F/IvzcHP42bmgQxVv97juG+J8/gx+JIeCX/Q==
@@ -7254,7 +7265,7 @@ proxy-agent@6.2.1, proxy-agent@^6.2.1:
     proxy-from-env "^1.1.0"
     socks-proxy-agent "^8.0.1"
 
-proxy-from-env@^1.1.0:
+proxy-from-env@1.1.0, proxy-from-env@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
@@ -7287,26 +7298,26 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer-core@20.8.0:
-  version "20.8.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-20.8.0.tgz#b20073fc31869c0373714a9c827679686819290c"
-  integrity sha512-sQcuH6nv9jnFiaaePk53+C0O9BaJP6OaPmYKqJ3sWhziThv6uaaosK49Kg3g1HUUEP9KYhbOhedPIUCXJSQUxw==
+puppeteer-core@20.8.2:
+  version "20.8.2"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-20.8.2.tgz#26e3810bec9656f313fe904ac67adc96e2e67fe4"
+  integrity sha512-dWo60gFuFPdNhdabW9MMm6GpvkG6tND2D8FvrZ2MF+HggNApHrvLfbERj8vD6vXKV7UqDAJO0KI1OMo3S3Cm5w==
   dependencies:
-    "@puppeteer/browsers" "1.4.3"
+    "@puppeteer/browsers" "1.4.5"
     chromium-bidi "0.4.16"
     cross-fetch "4.0.0"
     debug "4.3.4"
     devtools-protocol "0.0.1135028"
     ws "8.13.0"
 
-puppeteer@^20.8.0:
-  version "20.8.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-20.8.0.tgz#933e5bfc354d5829fed1a0b91f2c9820e4b79965"
-  integrity sha512-DnTwtQMUzWGkJYN3rvUW8y2LciFMnM0YR9cgwWmYmMLhUnYQw1XX+Q+5cAO8+AADglVuJCz0kaopd0lMI5j04g==
+puppeteer@^20.8.2:
+  version "20.8.2"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-20.8.2.tgz#f04e9e4ee0b2036e68f87d2d134aae0f2882b0ba"
+  integrity sha512-+VRywTRGF09UyiesFL7pcU19Cq7vf2HsE/eulwSpl7YHcr8g8X+Va4qLmp7mOECwteGvP7rU8vQ7PP43fcubbA==
   dependencies:
-    "@puppeteer/browsers" "1.4.3"
+    "@puppeteer/browsers" "1.4.5"
     cosmiconfig "8.2.0"
-    puppeteer-core "20.8.0"
+    puppeteer-core "20.8.2"
 
 q@^1.5.1:
   version "1.5.1"
@@ -7897,6 +7908,15 @@ snake-case@^3.0.4:
     dot-case "^3.0.4"
     tslib "^2.0.3"
 
+socks-proxy-agent@8.0.1, socks-proxy-agent@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/socks-proxy-agent/-/socks-proxy-agent-8.0.1.tgz#ffc5859a66dac89b0c4dab90253b96705f3e7120"
+  integrity sha512-59EjPbbgg8U3x62hhKOFVAmySQUcfRQ4C7Q/D5sEHnZTQRrQlNKINks44DMR1gwXp0p4LaVIeccX2KHTTcHVqQ==
+  dependencies:
+    agent-base "^7.0.1"
+    debug "^4.3.4"
+    socks "^2.7.1"
+
 socks-proxy-agent@^6.0.0:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/socks-proxy-agent/-/socks-proxy-agent-6.2.1.tgz#2687a31f9d7185e38d530bef1944fe1f1496d6ce"
@@ -7914,15 +7934,6 @@ socks-proxy-agent@^7.0.0:
     agent-base "^6.0.2"
     debug "^4.3.3"
     socks "^2.6.2"
-
-socks-proxy-agent@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/socks-proxy-agent/-/socks-proxy-agent-8.0.1.tgz#ffc5859a66dac89b0c4dab90253b96705f3e7120"
-  integrity sha512-59EjPbbgg8U3x62hhKOFVAmySQUcfRQ4C7Q/D5sEHnZTQRrQlNKINks44DMR1gwXp0p4LaVIeccX2KHTTcHVqQ==
-  dependencies:
-    agent-base "^7.0.1"
-    debug "^4.3.4"
-    socks "^2.7.1"
 
 socks@^2.6.2, socks@^2.7.1:
   version "2.7.1"
@@ -8276,14 +8287,14 @@ taketalk@^1.0.0:
     get-stdin "^4.0.1"
     minimist "^1.1.0"
 
-tar-fs@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-3.0.3.tgz#6593e7df92f337e74d755be183a192213d923050"
-  integrity sha512-ZK36riGYnFI6LujIBfBRoDfeaaWUkStIFKwtPjnDWCKnsDE9kuQthG09aQjLjpzoRtVElEMZ/AIAURNb7N9mkA==
+tar-fs@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-3.0.4.tgz#a21dc60a2d5d9f55e0089ccd78124f1d3771dbbf"
+  integrity sha512-5AFQU8b9qLfZCX9zp2duONhPmZv0hGYiBPJsyUdqMjzq/mqVpy/rEUSeHk1+YitmxugaptgBh5oDGU3VsAJq4w==
   dependencies:
     mkdirp-classic "^0.5.2"
     pump "^3.0.0"
-    tar-stream "^3.1.0"
+    tar-stream "^3.1.5"
 
 tar-fs@^2.0.0:
   version "2.1.1"
@@ -8306,10 +8317,10 @@ tar-stream@^2.1.4, tar-stream@^2.2.0:
     inherits "^2.0.3"
     readable-stream "^3.1.1"
 
-tar-stream@^3.1.0:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-3.1.4.tgz#a06c3cefe558f8a5a6e88ddfbf6471782ad8dd42"
-  integrity sha512-IlHr7ZOW6XaVBCrSCokUJG4IqUuRcWW76B8XbrtCotbaDh6zVGE7WPCzaSz1CN+acFmWiwoa+cE4RZsom0RzXg==
+tar-stream@^3.1.5:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-3.1.6.tgz#6520607b55a06f4a2e2e04db360ba7d338cc5bab"
+  integrity sha512-B/UyjYwPpMBv+PaFSWAmtYjwdrlEaZQEhMIBFNC5oEG8lpiW8XjcSdmEaClj28ArfKScKHs2nshz3k2le6crsg==
   dependencies:
     b4a "^1.6.4"
     fast-fifo "^1.2.0"
