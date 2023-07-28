@@ -1,3 +1,10 @@
+## [1.1.51](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.50...v1.1.51) (2023-07-28)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/source-deploy-retrieve from 9.3.4 to 9.5.0 ([#582](https://github.com/jayree/sfdx-plugin-legacy/issues/582)) ([4cc64ed](https://github.com/jayree/sfdx-plugin-legacy/commit/4cc64ed5478303c4b41ae4dcf9065e6444887249))
+
 ## [1.1.50](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.49...v1.1.50) (2023-07-21)
 
 
