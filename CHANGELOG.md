@@ -1,3 +1,10 @@
+## [1.1.53](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.52...v1.1.53) (2023-08-11)
+
+
+### Bug Fixes
+
+* **deps:** bump inquirer from 9.2.9 to 9.2.10 ([#605](https://github.com/jayree/sfdx-plugin-legacy/issues/605)) ([2ec337a](https://github.com/jayree/sfdx-plugin-legacy/commit/2ec337a94e76db49f978fe8ee9d80190788991e9))
+
 ## [1.1.52](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.51...v1.1.52) (2023-08-04)
 
 
