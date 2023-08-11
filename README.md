@@ -8,26 +8,11 @@ A Salesforce CLI plugin containing all jayree legacy commands.
 [![Downloads/week](https://img.shields.io/npm/dw/@jayree/sfdx-plugin-legacy.svg)](https://npmjs.org/package/@jayree/sfdx-plugin-legacy)
 [![License](https://img.shields.io/npm/l/@jayree/sfdx-plugin-legacy.svg)](https://github.com/jayree-plugins/sfdx-plugin-manifest/blob/main/package.json)
 
-<!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
+## Install
 
-## Usage
-
-<!-- usage -->
-```sh-session
-$ sfdx plugins:install @jayree/sfdx-plugin-legacy
-$ sfdx jayree:[COMMAND]
-running command...
-$ sfdx plugins
-@jayree/sfdx-plugin-legacy 1.1.53
-$ sfdx help jayree:[COMMAND]
-USAGE
-  $ sfdx jayree:COMMAND
-...
+```bash
+sfdx plugins:install @jayree/sfdx-plugin-legacy
 ```
-<!-- usagestop -->
 
 ## Commands
 
