@@ -10,7 +10,7 @@
     "@salesforce/command": "^5.3.9",
     "adm-zip": "^0.5.10",
     "debug": "^4.3.4",
-    "fast-xml-parser": "^4.3.1",
+    "fast-xml-parser": "^4.3.2",
     "fs-extra": "^11.1.1",
     "inquirer": "^9.2.11",
     "puppeteer": "^21.3.6",
