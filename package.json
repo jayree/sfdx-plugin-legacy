@@ -28,7 +28,7 @@
     "@types/adm-zip": "^0.5.3",
     "@types/chai": "^4.3.8",
     "@types/fs-extra": "^11.0.3",
-    "@types/inquirer": "^9.0.4",
+    "@types/inquirer": "^9.0.6",
     "@types/mocha": "^10.0.2",
     "@types/node": "^20.8.7",
     "@types/sinon": "^10.0.19",
