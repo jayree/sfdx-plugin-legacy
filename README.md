@@ -31,28 +31,7 @@ deploy incomming change set to an org (beta)
 
 ```
 USAGE
-  $ sfdx jayree:automation:changeset:deploy [-r <string> -l <string>] [-c] [--nodialog -s <string>] [-u <string>] [--apiversion
-    <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
-
-FLAGS
-  -c, --checkonly                                                                   validate deploy but don’t save to
-                                                                                    the org (default:false)
-  -l, --testlevel=<option>                                                          deployment testing level
-                                                                                    (Default,RunSpecifiedTests,RunLocalT
-                                                                                    ests,RunAllTestsInOrg)
-                                                                                    <options: Default|RunSpecifiedTests|
-                                                                                    RunLocalTests|RunAllTestsInOrg>
-  -r, --runtests=<value>                                                            tests to run if --testlevel
-                                                                                    RunSpecifiedTests
-  -s, --changeset=<value>                                                           name of changeset to deploy
-  -u, --targetusername=<value>                                                      username or alias for the target
-                                                                                    org; overrides default target org
-  --apiversion=<value>                                                              override the api version used for
-                                                                                    api requests made by this command
-  --json                                                                            format output as json
-  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
-                                                                                    this command invocation
-  --nodialog                                                                        don't show the dialog wizard
+  $ sfdx jayree:automation:changeset:deploy
 
 DESCRIPTION
   deploy incomming change set to an org (beta)
@@ -71,7 +50,7 @@ EXAMPLES
   ❯ ChangeSet1
 ```
 
-_See code: [src/commands/jayree/automation/changeset/deploy.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.62/src/commands/jayree/automation/changeset/deploy.ts)_
+_See code: [src/commands/jayree/automation/changeset/deploy.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.63/src/commands/jayree/automation/changeset/deploy.ts)_
 
 ### `sfdx jayree:automation:changeset:list`
 
@@ -79,23 +58,13 @@ list incomming change sets of an org (beta)
 
 ```
 USAGE
-  $ sfdx jayree:automation:changeset:list [-u <string>] [--apiversion <string>] [--json] [--loglevel
-    trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
-
-FLAGS
-  -u, --targetusername=<value>                                                      username or alias for the target
-                                                                                    org; overrides default target org
-  --apiversion=<value>                                                              override the api version used for
-                                                                                    api requests made by this command
-  --json                                                                            format output as json
-  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
-                                                                                    this command invocation
+  $ sfdx jayree:automation:changeset:list
 
 DESCRIPTION
   list incomming change sets of an org (beta)
 ```
 
-_See code: [src/commands/jayree/automation/changeset/list.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.62/src/commands/jayree/automation/changeset/list.ts)_
+_See code: [src/commands/jayree/automation/changeset/list.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.63/src/commands/jayree/automation/changeset/list.ts)_
 
 ### `sfdx jayree:automation:ltngsync:status`
 
@@ -103,24 +72,7 @@ check the Lightning Sync User Sync Status and reset sync if needed (beta)
 
 ```
 USAGE
-  $ sfdx jayree:automation:ltngsync:status -o <string> [-s] [-w <integer>] [-u <string>] [--apiversion <string>] [--json] [--loglevel
-    trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
-
-FLAGS
-  -o, --officeuser=<value>                                                          (required) 'name' (firstname
-                                                                                    lastname) of the SF user
-  -s, --statusonly                                                                  get Lightning Sync status of the SF
-                                                                                    user, only
-  -u, --targetusername=<value>                                                      username or alias for the target
-                                                                                    org; overrides default target org
-  -w, --wait=<value>                                                                wait time for command to wait for
-                                                                                    status change in minutes (default:
-                                                                                    infinitely)
-  --apiversion=<value>                                                              override the api version used for
-                                                                                    api requests made by this command
-  --json                                                                            format output as json
-  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
-                                                                                    this command invocation
+  $ sfdx jayree:automation:ltngsync:status
 
 DESCRIPTION
   check the Lightning Sync User Sync Status and reset sync if needed (beta)
@@ -133,7 +85,7 @@ EXAMPLES
   userContacts/userEvents: Exchange to Salesforce sync status... Initial sync completed/Initial sync completed
 ```
 
-_See code: [src/commands/jayree/automation/ltngsync/status.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.62/src/commands/jayree/automation/ltngsync/status.ts)_
+_See code: [src/commands/jayree/automation/ltngsync/status.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.63/src/commands/jayree/automation/ltngsync/status.ts)_
 
 ### `sfdx jayree:packagedescription:create`
 
@@ -141,15 +93,7 @@ creates an empty package with the description
 
 ```
 USAGE
-  $ sfdx jayree:packagedescription:create (-d <string> -f <string>) [--json] [--loglevel
-    trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
-
-FLAGS
-  -d, --description=<value>                                                         (required) new description value
-  -f, --file=<value>                                                                (required) file to create
-  --json                                                                            format output as json
-  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
-                                                                                    this command invocation
+  $ sfdx jayree:packagedescription:create [FILE]
 
 DESCRIPTION
   creates an empty package with the description
@@ -158,7 +102,7 @@ EXAMPLES
   $ sfdx jayree:packagedescription:create --file FILENAME --description 'DESCRIPTION'
 ```
 
-_See code: [src/commands/jayree/packagedescription/create.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.62/src/commands/jayree/packagedescription/create.ts)_
+_See code: [src/commands/jayree/packagedescription/create.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.63/src/commands/jayree/packagedescription/create.ts)_
 
 ### `sfdx jayree:packagedescription:get`
 
@@ -166,14 +110,7 @@ get the description within a package
 
 ```
 USAGE
-  $ sfdx jayree:packagedescription:get -f <string> [--json] [--loglevel
-    trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
-
-FLAGS
-  -f, --file=<value>                                                                (required) file to read
-  --json                                                                            format output as json
-  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
-                                                                                    this command invocation
+  $ sfdx jayree:packagedescription:get [FILE]
 
 DESCRIPTION
   get the description within a package
@@ -183,7 +120,7 @@ EXAMPLES
   Description of Package FILENAME
 ```
 
-_See code: [src/commands/jayree/packagedescription/get.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.62/src/commands/jayree/packagedescription/get.ts)_
+_See code: [src/commands/jayree/packagedescription/get.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.63/src/commands/jayree/packagedescription/get.ts)_
 
 ### `sfdx jayree:packagedescription:remove`
 
@@ -191,14 +128,7 @@ remove the description within a package
 
 ```
 USAGE
-  $ sfdx jayree:packagedescription:remove -f <string> [--json] [--loglevel
-    trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
-
-FLAGS
-  -f, --file=<value>                                                                (required) file to read
-  --json                                                                            format output as json
-  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
-                                                                                    this command invocation
+  $ sfdx jayree:packagedescription:remove [FILE]
 
 DESCRIPTION
   remove the description within a package
@@ -207,7 +137,7 @@ EXAMPLES
   $ sfdx jayree:packagedescription:remove --file FILENAME
 ```
 
-_See code: [src/commands/jayree/packagedescription/remove.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.62/src/commands/jayree/packagedescription/remove.ts)_
+_See code: [src/commands/jayree/packagedescription/remove.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.63/src/commands/jayree/packagedescription/remove.ts)_
 
 ### `sfdx jayree:packagedescription:set`
 
@@ -215,15 +145,7 @@ set the description within a package
 
 ```
 USAGE
-  $ sfdx jayree:packagedescription:set (-d <string> -f <string>) [--json] [--loglevel
-    trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
-
-FLAGS
-  -d, --description=<value>                                                         (required) new description value
-  -f, --file=<value>                                                                (required) file to read
-  --json                                                                            format output as json
-  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
-                                                                                    this command invocation
+  $ sfdx jayree:packagedescription:set [FILE]
 
 DESCRIPTION
   set the description within a package
@@ -232,5 +154,5 @@ EXAMPLES
   $ sfdx jayree:packagedescription:set --file FILENAME --description 'NEW DESCRIPTION'
 ```
 
-_See code: [src/commands/jayree/packagedescription/set.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.62/src/commands/jayree/packagedescription/set.ts)_
+_See code: [src/commands/jayree/packagedescription/set.ts](https://github.com/jayree/sfdx-plugin-legacy/blob/v1.1.63/src/commands/jayree/packagedescription/set.ts)_
 <!-- commandsstop -->
