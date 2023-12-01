@@ -1,3 +1,10 @@
+## [1.1.67](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.66...v1.1.67) (2023-12-01)
+
+
+### Bug Fixes
+
+* **deps:** bump fs-extra from 11.1.1 to 11.2.0 ([#773](https://github.com/jayree/sfdx-plugin-legacy/issues/773)) ([e589a31](https://github.com/jayree/sfdx-plugin-legacy/commit/e589a315f6f60aaa29daafd284d7486f43765f08))
+
 ## [1.1.66](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.65...v1.1.66) (2023-11-24)
 
 
