@@ -1024,11 +1024,12 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3.0.4", "@oclif/core@^3.15.0", "@oclif/core@^3.3.1":
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.15.0.tgz#28405012137fa92efcc5a2c4d61336dd64c697cb"
-  integrity sha512-A1EVh4gv7mqAJ9OGVxLugaLcHvQnGwvOnPToP8OT9AldJ0LwVExOwhhlnOstYca33MIpGH00twYxWMS5nxMuDQ==
+"@oclif/core@^3.0.4", "@oclif/core@^3.16.0", "@oclif/core@^3.3.1":
+  version "3.18.1"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.18.1.tgz#a8c9ee3848ad663d5694bef6079116c70d32fc55"
+  integrity sha512-l0LsjzGcqjbUEdeSBX6bdZieVmEv82Q0W3StiyaDMEnPZ9KLH28HrLpcZg6d50mCYW9CUZNzmRo6qrCHWrgLKw==
   dependencies:
+    "@types/cli-progress" "^3.11.5"
     ansi-escapes "^4.3.2"
     ansi-styles "^4.3.0"
     cardinal "^2.1.1"
@@ -1046,13 +1047,12 @@
     js-yaml "^3.14.1"
     natural-orderby "^2.0.3"
     object-treeify "^1.1.33"
-    password-prompt "^1.1.2"
+    password-prompt "^1.1.3"
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
     supports-color "^8.1.1"
     supports-hyperlinks "^2.2.0"
-    tsconfck "^3.0.0"
     widest-line "^3.1.0"
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
@@ -1165,12 +1165,12 @@
   dependencies:
     "@oclif/core" "^2.15.0"
 
-"@oclif/plugin-help@^6.0.9":
-  version "6.0.9"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.9.tgz#87bbf624372b9afe5dc183a13f52c929d6b022cf"
-  integrity sha512-O9zHzjsj8G3DWV+Ju4prrBwHUmwT1pcq7AJNxguedMk8jGZhwKWrcQHdZX6kjC+7QbupSzgjcvXvXpYVR1y3ow==
+"@oclif/plugin-help@^6.0.11":
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.11.tgz#f287edbc16ab94e4395d36c827999b1be043cbd2"
+  integrity sha512-4O96jKw7E3c222jaS/s/zOCNghtw52fVpd/h7CaejmV/99bkLTCrN2haeNcIR5WbwhyhvkO+GQsLMurLGdfB2Q==
   dependencies:
-    "@oclif/core" "^3.15.0"
+    "@oclif/core" "^3.16.0"
 
 "@oclif/plugin-not-found@^2.3.32":
   version "2.3.32"
@@ -1669,6 +1669,13 @@
   version "3.11.0"
   resolved "https://registry.yarnpkg.com/@types/cli-progress/-/cli-progress-3.11.0.tgz#ec79df99b26757c3d1c7170af8422e0fc95eef7e"
   integrity sha512-XhXhBv1R/q2ahF3BM7qT5HLzJNlIL0wbcGyZVjqOTqAybAnsLisd7gy1UCyIqpL+5Iv6XhlSyzjLCnI2sIdbCg==
+  dependencies:
+    "@types/node" "*"
+
+"@types/cli-progress@^3.11.5":
+  version "3.11.5"
+  resolved "https://registry.yarnpkg.com/@types/cli-progress/-/cli-progress-3.11.5.tgz#9518c745e78557efda057e3f96a5990c717268c3"
+  integrity sha512-D4PbNRbviKyppS5ivBGyFO29POlySLmA2HyUFE4p5QGazAMM3CwkKWcvTl8gvElSuxRh6FPKL8XmidX873ou4g==
   dependencies:
     "@types/node" "*"
 
@@ -7566,6 +7573,14 @@ password-prompt@^1.1.2:
     ansi-escapes "^3.1.0"
     cross-spawn "^6.0.5"
 
+password-prompt@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/password-prompt/-/password-prompt-1.1.3.tgz#05e539f4e7ca4d6c865d479313f10eb9db63ee5f"
+  integrity sha512-HkrjG2aJlvF0t2BMH0e2LB/EHf3Lcq3fNMzy4GYHcQblAvOl+QQji1Lx7WRBMqpVK8p+KR7bCg7oqAMXtdgqyw==
+  dependencies:
+    ansi-escapes "^4.3.2"
+    cross-spawn "^7.0.3"
+
 patch-package@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/patch-package/-/patch-package-7.0.2.tgz#c01589bb6964854b5210506a5845d47900641f5a"
@@ -9163,11 +9178,6 @@ ts-retry-promise@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ts-retry-promise/-/ts-retry-promise-0.7.1.tgz#176d6eee6415f07b6c7c286d3657355e284a6906"
   integrity sha512-NhHOCZ2AQORvH42hOPO5UZxShlcuiRtm7P2jIq2L2RY3PBxw2mLnUsEdHrIslVBFya1v5aZmrR55lWkzo13LrQ==
-
-tsconfck@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-3.0.0.tgz#b469f1ced12973bbec3209a55ed8de3bb04223c9"
-  integrity sha512-w3wnsIrJNi7avf4Zb0VjOoodoO0woEqGgZGQm+LHH9przdUI+XDKsWAXwxHA1DaRTjeuZNcregSzr7RaA8zG9A==
 
 tsconfig-paths@^3.14.1, tsconfig-paths@^3.15.0:
   version "3.15.0"
