@@ -19,7 +19,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
-    "@oclif/plugin-command-snapshot": "^4.0.14",
+    "@oclif/plugin-command-snapshot": "^5.1.1",
     "@oclif/plugin-help": "^6.0.17",
     "@salesforce/dev-config": "^4.1.0",
     "@salesforce/dev-scripts": "3.1.0",
