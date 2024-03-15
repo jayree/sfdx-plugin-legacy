@@ -1,3 +1,12 @@
+## [1.1.79](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.78...v1.1.79) (2024-03-15)
+
+
+### Bug Fixes
+
+* **deps:** bump adm-zip from 0.5.10 to 0.5.12 ([#893](https://github.com/jayree/sfdx-plugin-legacy/issues/893)) ([cb661e3](https://github.com/jayree/sfdx-plugin-legacy/commit/cb661e306e029ff8923a6843a5eaa5b01583d021))
+* **deps:** bump inquirer from 9.2.15 to 9.2.16 ([#898](https://github.com/jayree/sfdx-plugin-legacy/issues/898)) ([1fdec89](https://github.com/jayree/sfdx-plugin-legacy/commit/1fdec89204c981c456b6ec64c203fc9a81e6133f))
+* **deps:** bump puppeteer from 22.4.0 to 22.4.1 ([#897](https://github.com/jayree/sfdx-plugin-legacy/issues/897)) ([1a395e1](https://github.com/jayree/sfdx-plugin-legacy/commit/1a395e1657c0319ae99f5fc101309d538eab29dd))
+
 ## [1.1.78](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.77...v1.1.78) (2024-03-08)
 
 
