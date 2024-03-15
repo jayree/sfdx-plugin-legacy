@@ -17,7 +17,7 @@
     "tslib": "^2.6.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.0.3",
+    "@commitlint/cli": "^19.2.0",
     "@commitlint/config-conventional": "^19.0.3",
     "@oclif/plugin-command-snapshot": "^5.1.1",
     "@oclif/plugin-help": "^6.0.17",
