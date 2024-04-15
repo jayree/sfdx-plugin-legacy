@@ -6,7 +6,7 @@
   "bugs": "https://github.com/jayree/sfdx-plugin-legacy/issues",
   "type": "module",
   "dependencies": {
-    "@jayree/changelog": "^1.1.10",
+    "@jayree/changelog": "^1.1.11",
     "@salesforce/command": "^5.3.9",
     "adm-zip": "^0.5.12",
     "debug": "^4.3.4",
