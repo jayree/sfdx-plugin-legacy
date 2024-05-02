@@ -47,13 +47,10 @@ index 026246e..b146616 100644
  
  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 \ No newline at end of file
-diff --git a/node_modules/@salesforce/dev-scripts/files/eslintrc-test.js b/node_modules/@salesforce/dev-scripts/files/eslintrc-test.json
-similarity index 61%
-rename from node_modules/@salesforce/dev-scripts/files/eslintrc-test.js
-rename to node_modules/@salesforce/dev-scripts/files/eslintrc-test.json
+diff --git a/node_modules/@salesforce/dev-scripts/files/eslintrc-test.js b/node_modules/@salesforce/dev-scripts/files/eslintrc-test.js
 index 79fd9f4..b8b42ab 100644
 --- a/node_modules/@salesforce/dev-scripts/files/eslintrc-test.js
-+++ b/node_modules/@salesforce/dev-scripts/files/eslintrc-test.json
++++ b/node_modules/@salesforce/dev-scripts/files/eslintrc-test.js
 @@ -1,25 +1,25 @@
  /*
 - * Copyright (c) 2020, salesforce.com, inc.
@@ -92,10 +89,9 @@ index 79fd9f4..b8b42ab 100644
 +  }
 +}
 diff --git a/node_modules/@salesforce/dev-scripts/files/eslintrc.js b/node_modules/@salesforce/dev-scripts/files/eslintrc.js
-deleted file mode 100644
-index d4166fd..0000000
+index d4166fd..e69de29 100644
 --- a/node_modules/@salesforce/dev-scripts/files/eslintrc.js
-+++ /dev/null
++++ b/node_modules/@salesforce/dev-scripts/files/eslintrc.js
 @@ -1,9 +0,0 @@
 -/*
 - * Copyright (c) 2020, salesforce.com, inc.
