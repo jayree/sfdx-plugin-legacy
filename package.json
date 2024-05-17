@@ -9,7 +9,7 @@
     "@jayree/changelog": "^1.1.12",
     "@oclif/core": "^2.15.0",
     "@salesforce/command": "^5.3.9",
-    "@salesforce/core": "^3.36.2",
+    "@salesforce/core": "^7.3.8",
     "@salesforce/ts-types": "^2.0.9",
     "adm-zip": "^0.5.12",
     "debug": "^4.3.4",
