@@ -1,3 +1,13 @@
+## [1.1.91](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.90...v1.1.91) (2024-06-07)
+
+
+### Bug Fixes
+
+* **deps:** bump adm-zip from 0.5.12 to 0.5.14 ([#978](https://github.com/jayree/sfdx-plugin-legacy/issues/978)) ([150216d](https://github.com/jayree/sfdx-plugin-legacy/commit/150216d8b73100dd62f9787aa3736c30348145a1))
+* **deps:** bump debug from 4.3.4 to 4.3.5 ([#980](https://github.com/jayree/sfdx-plugin-legacy/issues/980)) ([4d0f3c7](https://github.com/jayree/sfdx-plugin-legacy/commit/4d0f3c785fc555c78e332a1ef1aba46f915f590c))
+* **deps:** bump inquirer from 9.2.22 to 9.2.23 ([#971](https://github.com/jayree/sfdx-plugin-legacy/issues/971)) ([1f38dcf](https://github.com/jayree/sfdx-plugin-legacy/commit/1f38dcf3485acdbba722953f036c186ea7566686))
+* **deps:** bump tslib from 2.6.2 to 2.6.3 ([#975](https://github.com/jayree/sfdx-plugin-legacy/issues/975)) ([3ec09c8](https://github.com/jayree/sfdx-plugin-legacy/commit/3ec09c81d89110752e7dddc086fd0148482a8b73))
+
 ## [1.1.90](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.89...v1.1.90) (2024-05-31)
 
 
