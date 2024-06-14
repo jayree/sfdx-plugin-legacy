@@ -1,3 +1,12 @@
+## [1.1.92](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.91...v1.1.92) (2024-06-14)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.1.12 to 1.2.0 ([#991](https://github.com/jayree/sfdx-plugin-legacy/issues/991)) ([849d85b](https://github.com/jayree/sfdx-plugin-legacy/commit/849d85b18daf3b858fe5c5077834fb4aa58738e8))
+* **deps:** bump @salesforce/ts-types from 2.0.9 to 2.0.10 ([#981](https://github.com/jayree/sfdx-plugin-legacy/issues/981)) ([e51bcbe](https://github.com/jayree/sfdx-plugin-legacy/commit/e51bcbe50cc8016dd94198a29b2c495c546efffc))
+* **deps:** bump puppeteer from 22.10.0 to 22.11.0 ([#987](https://github.com/jayree/sfdx-plugin-legacy/issues/987)) ([3206a1e](https://github.com/jayree/sfdx-plugin-legacy/commit/3206a1e18c6aace981a3900d6c46dae90e5fbb03))
+
 ## [1.1.91](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.90...v1.1.91) (2024-06-07)
 
 
