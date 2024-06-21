@@ -1,3 +1,10 @@
+## [1.1.93](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.92...v1.1.93) (2024-06-21)
+
+
+### Bug Fixes
+
+* **deps:** bump puppeteer from 22.11.0 to 22.11.2 ([#998](https://github.com/jayree/sfdx-plugin-legacy/issues/998)) ([48fac33](https://github.com/jayree/sfdx-plugin-legacy/commit/48fac338677dcbaf51fa874e5c75369f75358244))
+
 ## [1.1.92](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.91...v1.1.92) (2024-06-14)
 
 
