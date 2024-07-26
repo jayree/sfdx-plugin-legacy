@@ -4260,10 +4260,10 @@ eslint-config-salesforce-typescript@^1.1.1:
   resolved "https://registry.npmjs.org/eslint-config-salesforce-typescript/-/eslint-config-salesforce-typescript-1.1.2.tgz"
   integrity sha512-34RnT1fIo5cWdKwUH6IlfVKvVAQEH5R75K1O/c29U9qW5ZjmdfJ8NtI/4z143mhCM7wB9FsJROdKMJEISGThkA==
 
-eslint-config-salesforce-typescript@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-salesforce-typescript/-/eslint-config-salesforce-typescript-3.3.1.tgz#76cca6a80ff63a4883353725af2c6a4f0b23fbbf"
-  integrity sha512-mSm8MeUjqspl/g7EJXQNBxt8Alurzty9bqkvJpCmdQE4/8ubZH361RKg/qXhiZTa7vCVLMIj4hLJZhSu78pM+A==
+eslint-config-salesforce-typescript@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-salesforce-typescript/-/eslint-config-salesforce-typescript-3.4.0.tgz#3542e96aa6054b3df3b7c636b3b7f5bf4238bfb3"
+  integrity sha512-pT+kJsmLrXIsVw1f24gWB+a2Iefan9qp02iSdx5mk4Jb/Jv68LhS+V/dfJxN5vvKhzvc86UwUPEIQBX9OCSbpQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^6.21.0"
     "@typescript-eslint/parser" "^6.21.0"
