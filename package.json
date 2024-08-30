@@ -17,7 +17,7 @@
     "fs-extra": "^11.2.0",
     "inquirer": "^9.3.4",
     "puppeteer": "^23.1.1",
-    "tslib": "^2.6.3"
+    "tslib": "^2.7.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
