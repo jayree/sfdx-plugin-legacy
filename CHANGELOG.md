@@ -1,3 +1,11 @@
+## [1.1.115](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.114...v1.1.115) (2024-12-13)
+
+
+### Bug Fixes
+
+* **deps:** bump debug from 4.3.7 to 4.4.0 ([#1175](https://github.com/jayree/sfdx-plugin-legacy/issues/1175)) ([1672047](https://github.com/jayree/sfdx-plugin-legacy/commit/16720477a1354cc2300bc3725f4cfd8f2363cbad))
+* **deps:** bump puppeteer from 23.10.1 to 23.10.4 ([#1177](https://github.com/jayree/sfdx-plugin-legacy/issues/1177)) ([64eb4b3](https://github.com/jayree/sfdx-plugin-legacy/commit/64eb4b317ba7d7e295d6981a3082341f39b5cca6))
+
 ## [1.1.114](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.113...v1.1.114) (2024-12-06)
 
 
