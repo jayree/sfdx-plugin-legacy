@@ -29,7 +29,7 @@
     "@salesforce/prettier-config": "^0.0.3",
     "@salesforce/ts-sinon": "^1.4.30",
     "@types/adm-zip": "^0.5.7",
-    "@types/chai": "^5.2.1",
+    "@types/chai": "^5.2.2",
     "@types/fs-extra": "^11.0.4",
     "@types/inquirer": "^9.0.7",
     "@types/mocha": "^10.0.10",
