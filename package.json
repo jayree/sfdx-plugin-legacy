@@ -12,7 +12,7 @@
     "@salesforce/core": "^3.36.2",
     "@salesforce/ts-types": "^2.0.12",
     "adm-zip": "^0.5.16",
-    "debug": "^4.4.0",
+    "debug": "^4.4.1",
     "fast-xml-parser": "^5.2.2",
     "fs-extra": "^11.3.0",
     "inquirer": "^9.3.4",
