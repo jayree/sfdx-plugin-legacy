@@ -1,7 +1,7 @@
 {
   "name": "@jayree/sfdx-plugin-legacy",
   "description": "A Salesforce CLI plugin containing all jayree legacy commands.",
-  "version": "1.1.123",
+  "version": "1.1.124",
   "author": "jayree",
   "bugs": "https://github.com/jayree/sfdx-plugin-legacy/issues",
   "type": "module",
