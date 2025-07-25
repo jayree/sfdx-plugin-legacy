@@ -1691,10 +1691,10 @@
     jsonwebtoken "9.0.0"
     ts-retry-promise "^0.7.0"
 
-"@salesforce/core@^8.17.0":
-  version "8.18.1"
-  resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-8.18.1.tgz#4a790f9479339f45e42799d9ef7a1428d49b6ba1"
-  integrity sha512-RkG9Ye5TdsIQz4KLUHvDpVjbrTeeRmw5KUJIHRyMGAOjKB8wr2jvgXyZm7GD0epIW5ILsyKQQWWOa1uqsfVycA==
+"@salesforce/core@^8.18.1":
+  version "8.18.5"
+  resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-8.18.5.tgz#8205f3b1ee9ef63740128bef81cc32213a76296a"
+  integrity sha512-zQSIjo0L0ddcZbj3Oxxig2J6aYL5H5FY45TpXAXpjGe0UPWNxXkU2mrcDfs9OSn0MhM3uMj4fUIM1a158/3Lug==
   dependencies:
     "@jsforce/jsforce-node" "^3.9.1"
     "@salesforce/kit" "^3.2.2"
@@ -1704,7 +1704,7 @@
     change-case "^4.1.2"
     fast-levenshtein "^3.0.0"
     faye "^1.4.0"
-    form-data "^4.0.0"
+    form-data "^4.0.4"
     js2xmlparser "^4.0.1"
     jsonwebtoken "9.0.2"
     jszip "3.10.1"
@@ -4896,12 +4896,12 @@ eslint-plugin-prettier@^5.5.3:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.11.7"
 
-eslint-plugin-sf-plugin@^1.20.27:
-  version "1.20.27"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sf-plugin/-/eslint-plugin-sf-plugin-1.20.27.tgz#77e1b8edddc3fa03060d1ab965cba2ce69e8da43"
-  integrity sha512-OjadAKTrk0lyQ8ss/cba3zZ3vsngfI1xNINdOrPbBPQ6Nz5SgfqJXXLeDPVfy8BZbJKJK+r4Xf4xn+1p509i3g==
+eslint-plugin-sf-plugin@^1.20.29:
+  version "1.20.29"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sf-plugin/-/eslint-plugin-sf-plugin-1.20.29.tgz#2ac1705753e755ff411be8246a2f79adaea07755"
+  integrity sha512-yMcmHWL/uMPj0JHNKditfyo9URfJ1s6BVEWfPACM1jzQ+Q6ed0CJDeUNiw3/VrYMV5mzjaqIzJtUU+rxwwXOZA==
   dependencies:
-    "@salesforce/core" "^8.17.0"
+    "@salesforce/core" "^8.18.1"
     "@typescript-eslint/utils" "^7.18.0"
 
 eslint-plugin-unicorn@^50.0.1:
@@ -5505,6 +5505,17 @@ form-data@^4.0.0:
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
+    mime-types "^2.1.12"
+
+form-data@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.4.tgz#784cdcce0669a9d68e94d11ac4eea98088edd2c4"
+  integrity sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    es-set-tostringtag "^2.1.0"
+    hasown "^2.0.2"
     mime-types "^2.1.12"
 
 fromentries@^1.2.0:
