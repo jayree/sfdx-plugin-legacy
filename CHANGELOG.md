@@ -1,3 +1,10 @@
+## [1.1.156](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.155...v1.1.156) (2026-01-06)
+
+
+### Bug Fixes
+
+* **deps:** bump inquirer from 12.11.1 to 13.1.0 ([#1484](https://github.com/jayree/sfdx-plugin-legacy/issues/1484)) ([e9ad3ef](https://github.com/jayree/sfdx-plugin-legacy/commit/e9ad3ef62cf648e374c62d5b67e3cda1df44aad6))
+
 ## [1.1.155](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.154...v1.1.155) (2026-01-02)
 
 
