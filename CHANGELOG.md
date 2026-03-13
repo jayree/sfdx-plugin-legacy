@@ -1,3 +1,11 @@
+## [1.1.165](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.164...v1.1.165) (2026-03-13)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-parser from 5.4.2 to 5.5.3 ([#1557](https://github.com/jayree/sfdx-plugin-legacy/issues/1557)) ([ad41bd6](https://github.com/jayree/sfdx-plugin-legacy/commit/ad41bd6bd23d8f706f51bb6daf3995fb09ff3eb1))
+* **deps:** bump puppeteer from 24.38.0 to 24.39.0 ([#1560](https://github.com/jayree/sfdx-plugin-legacy/issues/1560)) ([a22c103](https://github.com/jayree/sfdx-plugin-legacy/commit/a22c103330ffd03d481af4aa69e5ed1a834564c9))
+
 ## [1.1.164](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.163...v1.1.164) (2026-03-06)
 
 
