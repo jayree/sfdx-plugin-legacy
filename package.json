@@ -13,7 +13,7 @@
     "@salesforce/ts-types": "^2.0.12",
     "adm-zip": "^0.5.17",
     "debug": "^4.4.1",
-    "fast-xml-parser": "^5.7.3",
+    "fast-xml-parser": "^5.8.0",
     "fs-extra": "^11.3.5",
     "inquirer": "^13.4.3",
     "puppeteer": "^24.43.1",
