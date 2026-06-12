@@ -57,7 +57,7 @@
     "oclif": "^4.1.0",
     "patch-package": "^8.0.1",
     "pinst": "^3.0.0",
-    "prettier": "^3.8.3",
+    "prettier": "^3.8.4",
     "pretty-quick": "^4.2.2",
     "shx": "^0.4.0",
     "sinon": "^22.0.0",
