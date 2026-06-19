@@ -1,3 +1,10 @@
+## [1.1.178](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.177...v1.1.178) (2026-06-19)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-parser from 5.8.0 to 5.9.2 ([#1646](https://github.com/jayree/sfdx-plugin-legacy/issues/1646)) ([13ec4a3](https://github.com/jayree/sfdx-plugin-legacy/commit/13ec4a39c92ae05d0d12431a71baddf21ce8cb35))
+
 ## [1.1.177](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.176...v1.1.177) (2026-06-12)
 
 
