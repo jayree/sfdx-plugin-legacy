@@ -1,3 +1,11 @@
+## [1.1.180](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.179...v1.1.180) (2026-07-03)
+
+
+### Bug Fixes
+
+* **deps:** bump adm-zip from 0.5.17 to 0.5.18 ([#1665](https://github.com/jayree/sfdx-plugin-legacy/issues/1665)) ([bf918fc](https://github.com/jayree/sfdx-plugin-legacy/commit/bf918fcf3d51574106ef59055c1da52bab64b481))
+* **deps:** bump fs-extra from 11.3.5 to 11.3.6 ([#1663](https://github.com/jayree/sfdx-plugin-legacy/issues/1663)) ([fa5af9c](https://github.com/jayree/sfdx-plugin-legacy/commit/fa5af9c5b5e34d8c37ca27a308efc3688cef52dc))
+
 ## [1.1.179](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.178...v1.1.179) (2026-06-26)
 
 
