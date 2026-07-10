@@ -1,3 +1,10 @@
+## [1.1.181](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.180...v1.1.181) (2026-07-10)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.37 to 1.2.38 ([#1671](https://github.com/jayree/sfdx-plugin-legacy/issues/1671)) ([c7f8c9b](https://github.com/jayree/sfdx-plugin-legacy/commit/c7f8c9b6512e939bed39115f64ce9d74da5b24ae))
+
 ## [1.1.180](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.179...v1.1.180) (2026-07-03)
 
 
