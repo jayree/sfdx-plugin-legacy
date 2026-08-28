@@ -10,7 +10,7 @@
     "@oclif/core": "^2.15.0",
     "@salesforce/command": "^5.3.9",
     "@salesforce/core": "^3.36.2",
-    "@salesforce/ts-types": "^2.0.12",
+    "@salesforce/ts-types": "^3.0.1",
     "adm-zip": "^0.6.0",
     "debug": "^4.4.1",
     "fast-xml-parser": "^5.11.0",
