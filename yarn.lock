@@ -2012,6 +2012,11 @@
   resolved "https://registry.yarnpkg.com/@salesforce/ts-types/-/ts-types-2.0.12.tgz#60420622812a7ec7e46d220667bc29b42dc247ff"
   integrity sha512-BIJyduJC18Kc8z+arUm5AZ9VkPRyw1KKAm+Tk+9LT99eOzhNilyfKzhZ4t+tG2lIGgnJpmytZfVDZ0e2kFul8g==
 
+"@salesforce/ts-types@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@salesforce/ts-types/-/ts-types-3.2.2.tgz#954bee036a69acfbefeb83fec8c01d03d306e8bb"
+  integrity sha512-3t+/+CzdL2RSOPUvakbg7ICKgu+y5r+lBKYjcVa5TzeLkAnWad8TH98qgurndLZLXHVyW3rA4AM0oTpH+TZZVA==
+
 "@simple-libs/child-process-utils@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@simple-libs/child-process-utils/-/child-process-utils-2.0.0.tgz#90ea8a9008ab622cc50cf94ed3469ce5144e9eb6"
