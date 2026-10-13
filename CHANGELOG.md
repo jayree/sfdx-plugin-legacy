@@ -1,3 +1,11 @@
+## [1.1.189](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.188...v1.1.189) (2026-10-13)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/ts-types from 2.0.12 to 3.2.2 ([#1750](https://github.com/jayree/sfdx-plugin-legacy/issues/1750)) ([0a3db26](https://github.com/jayree/sfdx-plugin-legacy/commit/0a3db260a7f36b80a3efb0d016ef3cc42340aaee))
+* **deps:** bump inquirer from 13.4.3 to 14.2.3 ([#1757](https://github.com/jayree/sfdx-plugin-legacy/issues/1757)) ([831c15f](https://github.com/jayree/sfdx-plugin-legacy/commit/831c15f0bee0305c9c2922427df0b2fd9dfcf3ed))
+
 ## [1.1.188](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.187...v1.1.188) (2026-10-09)
 
 
