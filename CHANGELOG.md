@@ -1,3 +1,159 @@
+## [1.1.188](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.187...v1.1.188) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-parser from 5.11.1 to 5.11.2 ([#1760](https://github.com/jayree/sfdx-plugin-legacy/issues/1760)) ([297340c](https://github.com/jayree/sfdx-plugin-legacy/commit/297340caea598e3aaec01489ab083177895cc24c))
+
+## [1.1.187](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.186...v1.1.187) (2026-10-02)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.39 to 1.2.42 ([#1751](https://github.com/jayree/sfdx-plugin-legacy/issues/1751)) ([26e6dd1](https://github.com/jayree/sfdx-plugin-legacy/commit/26e6dd19fee8852ddb6808705af87e31848d1ef5))
+
+## [1.1.186](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.185...v1.1.186) (2026-09-18)
+
+
+### Bug Fixes
+
+* **deps:** bump adm-zip from 0.6.0 to 0.6.1 ([#1733](https://github.com/jayree/sfdx-plugin-legacy/issues/1733)) ([10db851](https://github.com/jayree/sfdx-plugin-legacy/commit/10db851cc8dc27380b7ccdcdb010443ab4b9c6c8))
+
+## [1.1.185](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.184...v1.1.185) (2026-09-04)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-parser from 5.11.0 to 5.11.1 ([#1716](https://github.com/jayree/sfdx-plugin-legacy/issues/1716)) ([8713bce](https://github.com/jayree/sfdx-plugin-legacy/commit/8713bcec0acdaee67f7b0512bd26a8b61ca0bc06))
+
+## [1.1.184](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.183...v1.1.184) (2026-08-21)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-parser from 5.10.1 to 5.11.0 ([#1708](https://github.com/jayree/sfdx-plugin-legacy/issues/1708)) ([f222989](https://github.com/jayree/sfdx-plugin-legacy/commit/f22298991d09dfacd627e6ad34b3accdcb4146a9))
+
+## [1.1.183](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.182...v1.1.183) (2026-07-24)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.38 to 1.2.39 ([#1685](https://github.com/jayree/sfdx-plugin-legacy/issues/1685)) ([6062d2b](https://github.com/jayree/sfdx-plugin-legacy/commit/6062d2ba0dd1e4e085d001c1157fb84e64dcafb2))
+* **deps:** bump fs-extra from 11.3.6 to 11.4.0 ([#1681](https://github.com/jayree/sfdx-plugin-legacy/issues/1681)) ([875efb6](https://github.com/jayree/sfdx-plugin-legacy/commit/875efb6d68a3ac488f95d5af37863be07ffa62df))
+
+## [1.1.182](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.181...v1.1.182) (2026-07-17)
+
+
+### Bug Fixes
+
+* **deps:** bump adm-zip from 0.5.18 to 0.6.0 ([#1679](https://github.com/jayree/sfdx-plugin-legacy/issues/1679)) ([c300474](https://github.com/jayree/sfdx-plugin-legacy/commit/c300474fbcbf79be2f3c6a7f0dc342913a84992c))
+* **deps:** bump fast-xml-parser from 5.9.3 to 5.10.1 ([#1678](https://github.com/jayree/sfdx-plugin-legacy/issues/1678)) ([467f8d2](https://github.com/jayree/sfdx-plugin-legacy/commit/467f8d2c68f4f2c863c7340844a11bed0915ad65))
+
+## [1.1.181](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.180...v1.1.181) (2026-07-10)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.37 to 1.2.38 ([#1671](https://github.com/jayree/sfdx-plugin-legacy/issues/1671)) ([c7f8c9b](https://github.com/jayree/sfdx-plugin-legacy/commit/c7f8c9b6512e939bed39115f64ce9d74da5b24ae))
+
+## [1.1.180](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.179...v1.1.180) (2026-07-03)
+
+
+### Bug Fixes
+
+* **deps:** bump adm-zip from 0.5.17 to 0.5.18 ([#1665](https://github.com/jayree/sfdx-plugin-legacy/issues/1665)) ([bf918fc](https://github.com/jayree/sfdx-plugin-legacy/commit/bf918fcf3d51574106ef59055c1da52bab64b481))
+* **deps:** bump fs-extra from 11.3.5 to 11.3.6 ([#1663](https://github.com/jayree/sfdx-plugin-legacy/issues/1663)) ([fa5af9c](https://github.com/jayree/sfdx-plugin-legacy/commit/fa5af9c5b5e34d8c37ca27a308efc3688cef52dc))
+
+## [1.1.179](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.178...v1.1.179) (2026-06-26)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.35 to 1.2.37 ([#1653](https://github.com/jayree/sfdx-plugin-legacy/issues/1653)) ([277332b](https://github.com/jayree/sfdx-plugin-legacy/commit/277332bddca8757574d7372bd54c7d42c703a005))
+* **deps:** bump fast-xml-parser from 5.9.2 to 5.9.3 ([#1657](https://github.com/jayree/sfdx-plugin-legacy/issues/1657)) ([0f8dd16](https://github.com/jayree/sfdx-plugin-legacy/commit/0f8dd16518da6eadd9c084130c2b32fef0671e35))
+
+## [1.1.178](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.177...v1.1.178) (2026-06-19)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-parser from 5.8.0 to 5.9.2 ([#1646](https://github.com/jayree/sfdx-plugin-legacy/issues/1646)) ([13ec4a3](https://github.com/jayree/sfdx-plugin-legacy/commit/13ec4a39c92ae05d0d12431a71baddf21ce8cb35))
+
+## [1.1.177](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.176...v1.1.177) (2026-06-12)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.34 to 1.2.35 ([#1644](https://github.com/jayree/sfdx-plugin-legacy/issues/1644)) ([e3bd4d5](https://github.com/jayree/sfdx-plugin-legacy/commit/e3bd4d5245b0c6ffcbdc097a77cba2581514b8c4))
+
+## [1.1.176](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.175...v1.1.176) (2026-06-05)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.33 to 1.2.34 ([#1636](https://github.com/jayree/sfdx-plugin-legacy/issues/1636)) ([5cf91a4](https://github.com/jayree/sfdx-plugin-legacy/commit/5cf91a45ad621f74ddfead33443589fb2f1cbdd7))
+
+## [1.1.175](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.174...v1.1.175) (2026-05-22)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.32 to 1.2.33 ([#1630](https://github.com/jayree/sfdx-plugin-legacy/issues/1630)) ([d3debae](https://github.com/jayree/sfdx-plugin-legacy/commit/d3debae6100300572e9eb234129abf70ca93e1a8))
+
+## [1.1.174](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.173...v1.1.174) (2026-05-16)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.31 to 1.2.32 ([#1619](https://github.com/jayree/sfdx-plugin-legacy/issues/1619)) ([44a30d8](https://github.com/jayree/sfdx-plugin-legacy/commit/44a30d87265596df37cb68a91c7f17664e3f6c72))
+* **deps:** bump fast-xml-parser from 5.7.3 to 5.8.0 ([#1622](https://github.com/jayree/sfdx-plugin-legacy/issues/1622)) ([08a6863](https://github.com/jayree/sfdx-plugin-legacy/commit/08a686351697f218278b76898ffd168800697476))
+* **deps:** bump inquirer from 13.4.2 to 13.4.3 ([#1626](https://github.com/jayree/sfdx-plugin-legacy/issues/1626)) ([f7a4ddf](https://github.com/jayree/sfdx-plugin-legacy/commit/f7a4ddf5e712cf978211ee7881ae75b04b5a77a2))
+* **deps:** bump puppeteer from 24.43.0 to 24.43.1 ([#1620](https://github.com/jayree/sfdx-plugin-legacy/issues/1620)) ([967f9db](https://github.com/jayree/sfdx-plugin-legacy/commit/967f9db75c2ce254ea4ffd62f2b5a0ef63e0718e))
+
+## [1.1.173](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.172...v1.1.173) (2026-05-08)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.30 to 1.2.31 ([#1612](https://github.com/jayree/sfdx-plugin-legacy/issues/1612)) ([c0285fc](https://github.com/jayree/sfdx-plugin-legacy/commit/c0285fc21a113b92772c569aaa1e40411ed4a2de))
+* **deps:** bump fast-xml-parser from 5.7.2 to 5.7.3 ([#1614](https://github.com/jayree/sfdx-plugin-legacy/issues/1614)) ([452992a](https://github.com/jayree/sfdx-plugin-legacy/commit/452992af291f8617035117d0a59ef89e5e5370f1))
+* **deps:** bump fs-extra from 11.3.4 to 11.3.5 ([#1617](https://github.com/jayree/sfdx-plugin-legacy/issues/1617)) ([314f012](https://github.com/jayree/sfdx-plugin-legacy/commit/314f0124e6163db6c9d83c72d3a06d09998a0c50))
+* **deps:** bump puppeteer from 24.42.0 to 24.43.0 ([#1616](https://github.com/jayree/sfdx-plugin-legacy/issues/1616)) ([7ce29dd](https://github.com/jayree/sfdx-plugin-legacy/commit/7ce29dd72a944dc4aaa99c30f22968e24cf99fe0))
+
+## [1.1.172](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.171...v1.1.172) (2026-05-01)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.29 to 1.2.30 ([#1606](https://github.com/jayree/sfdx-plugin-legacy/issues/1606)) ([95a1a86](https://github.com/jayree/sfdx-plugin-legacy/commit/95a1a8608d9c6722703808fb1140c08988ea3577))
+* **deps:** bump fast-xml-parser from 5.7.1 to 5.7.2 ([#1611](https://github.com/jayree/sfdx-plugin-legacy/issues/1611)) ([b7a5cb7](https://github.com/jayree/sfdx-plugin-legacy/commit/b7a5cb77fee0ce5c707c7efb3c20badd1b1b7c4b))
+
+## [1.1.171](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.170...v1.1.171) (2026-04-24)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.28 to 1.2.29 ([#1603](https://github.com/jayree/sfdx-plugin-legacy/issues/1603)) ([d7bfcfd](https://github.com/jayree/sfdx-plugin-legacy/commit/d7bfcfd3ef96c49d01c679038d87daa4c65eb919))
+* **deps:** bump fast-xml-parser from 5.6.0 to 5.7.1 ([#1602](https://github.com/jayree/sfdx-plugin-legacy/issues/1602)) ([5631275](https://github.com/jayree/sfdx-plugin-legacy/commit/56312754d7b7b0428e71803c57656f2c95da0056))
+* **deps:** bump inquirer from 13.4.1 to 13.4.2 ([#1605](https://github.com/jayree/sfdx-plugin-legacy/issues/1605)) ([a5cd7c0](https://github.com/jayree/sfdx-plugin-legacy/commit/a5cd7c08a6a8b49b392079f9fc38559da6a52ce5))
+* **deps:** bump puppeteer from 24.41.0 to 24.42.0 ([#1601](https://github.com/jayree/sfdx-plugin-legacy/issues/1601)) ([fbe3855](https://github.com/jayree/sfdx-plugin-legacy/commit/fbe3855b747e4c22167be5e5ff482408149f0b6a))
+
+## [1.1.170](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.169...v1.1.170) (2026-04-17)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-parser from 5.5.11 to 5.6.0 ([#1597](https://github.com/jayree/sfdx-plugin-legacy/issues/1597)) ([fc0aa27](https://github.com/jayree/sfdx-plugin-legacy/commit/fc0aa27491e91adeb2156f95ac8f058ec6a27f27))
+* **deps:** bump puppeteer from 24.40.0 to 24.41.0 ([#1595](https://github.com/jayree/sfdx-plugin-legacy/issues/1595)) ([455b275](https://github.com/jayree/sfdx-plugin-legacy/commit/455b27531fb3c9294707482c015ce71348dedcb6))
+
+## [1.1.169](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.168...v1.1.169) (2026-04-10)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-parser from 5.5.10 to 5.5.11 ([#1593](https://github.com/jayree/sfdx-plugin-legacy/issues/1593)) ([b1a8d84](https://github.com/jayree/sfdx-plugin-legacy/commit/b1a8d844f7f809a52a0289ba7565b2210d2ef996))
+* **deps:** bump inquirer from 13.3.2 to 13.4.1 ([#1590](https://github.com/jayree/sfdx-plugin-legacy/issues/1590)) ([d826401](https://github.com/jayree/sfdx-plugin-legacy/commit/d8264019e814bb8d643cddb5b1b4d5bdc46a7575))
+
 ## [1.1.168](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.167...v1.1.168) (2026-04-05)
 
 
