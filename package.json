@@ -16,7 +16,7 @@
     "fast-xml-parser": "^5.11.2",
     "fs-extra": "^11.4.0",
     "inquirer": "^14.2.3",
-    "puppeteer": "^24.43.1",
+    "puppeteer": "^25.14.0",
     "tslib": "^2.8.1"
   },
   "devDependencies": {
