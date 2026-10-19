@@ -1,3 +1,10 @@
+## [1.1.191](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.190...v1.1.191) (2026-10-19)
+
+
+### Bug Fixes
+
+* **deps:** bump github/codeql-action from 4.38.3 to 4.39.0 ([#1774](https://github.com/jayree/sfdx-plugin-legacy/issues/1774)) ([cf1f951](https://github.com/jayree/sfdx-plugin-legacy/commit/cf1f95140d3a639f3a10bcffe92216588bcb2a58))
+
 ## [1.1.190](https://github.com/jayree/sfdx-plugin-legacy/compare/v1.1.189...v1.1.190) (2026-10-17)
 
 
