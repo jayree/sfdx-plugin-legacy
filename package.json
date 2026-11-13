@@ -27,7 +27,7 @@
     "@salesforce/dev-config": "^4.3.3",
     "@salesforce/dev-scripts": "3.1.0",
     "@salesforce/prettier-config": "^0.0.5",
-    "@salesforce/ts-sinon": "^1.4.39",
+    "@salesforce/ts-sinon": "^1.4.45",
     "@types/adm-zip": "^0.6.0",
     "@types/chai": "^5.2.3",
     "@types/fs-extra": "^11.0.4",
